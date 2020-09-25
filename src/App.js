@@ -6,7 +6,7 @@ import WeatherDetails from "./WeatherDetails";
 function App() {
   const [weather, setWeather] = useState([]);
 
-  const APIKEY = "2af5881a6979d8aba584a4cdf73c4444";
+  const APIKEY = "API KEY";
 
   useEffect(() => {
     const fetchDataOnLoad = async () =>
