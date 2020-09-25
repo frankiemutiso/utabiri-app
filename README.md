@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# utabiri-app
+A simple weather app that fetches the current weather details of your city of choice. It is created using React UI and Open Weather Map API.
+>>>>>>> 3a5a513f90a5b4154f37310ab9d317b66bf96a11
