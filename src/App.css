@@ -33,3 +33,15 @@
   margin: 20px 0 7px 0;
   color: #222831;
 }
+
+@media screen and (max-width: 640px) {
+  .app {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .app {
+    width: 240px;
+  }
+}

@@ -14,7 +14,7 @@ function WeatherDetails({
 }) {
   return (
     <div className="weatherDetails">
-      {error && <h1>{error}</h1>}
+      {error && <h1 className="error">{error}</h1>}
       {icon && description && temperature && feels_like && (
         <div className="weatherDetails__top">
           <div className="weatherDetails__topLeft">

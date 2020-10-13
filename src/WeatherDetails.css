@@ -59,3 +59,7 @@
 .weatherDetails__bottomExtra > div > h5 {
   color: #53555e;
 }
+
+.error {
+  text-align: center;
+}

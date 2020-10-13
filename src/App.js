@@ -6,7 +6,7 @@ import WeatherDetails from "./WeatherDetails";
 function App() {
   const [weather, setWeather] = useState([]);
 
-  const APIKEY = "API KEY";
+  const APIKEY = "2af5881a6979d8aba584a4cdf73c4444";
 
   useEffect(() => {
     const fetchDataOnLoad = async () =>
@@ -62,7 +62,9 @@ function App() {
           humidity: data.main.humidity
         })
       )
-      .catch((error) => setWeather({ error: error.message }));
+      .catch((error) =>
+        setWeather({ error: "Sorry! No weather details for this city" })
+      );
   };
 
   return (
