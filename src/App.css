@@ -39,9 +39,3 @@
     width: 300px;
   }
 }
-
-@media screen and (max-width: 580px) {
-  .app {
-    width: 240px;
-  }
-}
